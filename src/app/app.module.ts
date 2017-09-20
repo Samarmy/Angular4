@@ -13,13 +13,13 @@ import { LoginComponent } from './login/login.component';
 import { SettingsComponent } from './settings/settings.component';
 
 const appRoutes: Routes = [
-  { path: '/', component: HomeComponent },
-  { path: '/portfolio',      component: PortfolioComponent },
-  { path: '/calender',      component: CalenderComponent },
-  { path: '/library',      component: LibraryComponent },
-  { path: '/videos',      component: VideosComponent },
-  { path: '/login',      component: LoginComponent },
-  { path: '/settings',      component: SettingsComponent },
+  { path: '', component: HomeComponent },
+  { path: 'portfolio',      component: PortfolioComponent },
+  { path: 'calender',      component: CalenderComponent },
+  { path: 'library',      component: LibraryComponent },
+  { path: 'videos',      component: VideosComponent },
+  { path: 'login',      component: LoginComponent },
+  { path: 'settings',      component: SettingsComponent }
 ];
 
 @NgModule({
