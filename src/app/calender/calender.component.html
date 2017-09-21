@@ -3,8 +3,8 @@
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
     <li>
-      August{{totalDays}}<br>
-      <span style="font-size:18px">2017</span>
+        {{weekDay}}<br>
+      <span style="font-size:18px">{{date | date:'MMMM dd, yyyy'}}</span>
     </li>
   </ul>
 </div>
@@ -20,7 +20,7 @@
 </ul>
 
 <ul class="days">
-  <li *ngFor="let day of totalDays">{{day}}</li>
+  <li *ngFor="let day of dates;">{{day}}</li>
 
 
 
